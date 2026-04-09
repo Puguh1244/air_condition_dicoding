@@ -12,7 +12,7 @@ st.title("Dashboard Analisis Kualitas Udara")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv("kumpulan_data_bersih.csv")
+    return pd.read_csv("../kumpulan_data_bersih.csv")
 
 try:
     df = load_data()
